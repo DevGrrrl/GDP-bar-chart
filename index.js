@@ -59,7 +59,7 @@ function getD3Elements(data) {
 
   var gdpDetail = svg
     .append("text")
-    .text("Gross Domestic Product, USA")
+    .text("Gross Domestic Product USA")
     .attr("class", "gdp")
     .attr("transform", "rotate(-90)")
     .attr("x", -205)
