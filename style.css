@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://source.unsplash.com/rKPiuXLq29A/1600x900");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+#chart {
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  background-color: rgb(247, 247, 247);
+  opacity: 0.9;
+  margin: 2% auto;
+  filter: drop-shadow(0 0 0.2rem rgb(79, 76, 78));
+}
+
+.x-axis path x.axis line {
+  shape-rendering: crispEdges;
+}
+
+.x-axis text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.y-axis path x.axis line {
+  shape-rendering: crispEdges;
+}
+
+.y-axis text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.title {
+  font-family: Optima, serif;
+  font-size: 2rem;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.gdp {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#tooltip {
+  position: absolute;
+  width: 130px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #000;
+  pointer-events: none;
+  display: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
