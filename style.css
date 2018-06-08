@@ -5,6 +5,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: Helvetica, sans-serif;
+  height: 100vh;
 }
 
 #chart {
@@ -13,7 +14,7 @@ body {
   height: 700px;
   background-color: rgb(247, 247, 247);
   opacity: 0.9;
-  margin: 2% auto;
+  margin: 5% auto;
   filter: drop-shadow(0 0 0.2rem rgb(79, 76, 78));
 }
 
